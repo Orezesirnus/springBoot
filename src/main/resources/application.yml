@@ -3,7 +3,7 @@ spring:
     name: spring_boot_demo
 
   datasource:
-    url: jdbc:h2:mem:spring_boot_demo
+    url: ${datasource_url} #variabile di ambiente
     username: sa
     password: sa
     driver-class-name: org.h2.Driver #h2: tipo di DB che lavora su RAM, temporaneo

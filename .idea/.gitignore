@@ -7,10 +7,5 @@
 /dataSources/
 /dataSources.local.xml
 
-# build folders
-/build/
-
-# config file
-config/local-settings.json
 
 
